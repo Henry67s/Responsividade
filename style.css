@@ -1,0 +1,72 @@
+body{
+padding-top:70px;
+transition:0.4s;
+}
+
+.banner{
+background:linear-gradient(135deg,#0d6efd,#6610f2);
+color:white;
+padding:100px 20px;
+}
+
+.banner h1{
+font-size:3rem;
+}
+
+.card{
+transition:0.4s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.destaque{
+padding:20px;
+transition:0.4s;
+}
+
+.destaque:hover{
+transform:translateY(-10px);
+}
+
+.dark{
+background:#121212;
+color:white;
+}
+
+.dark .card{
+background:#1e1e1e;
+color:white;
+}
+
+.dark .navbar{
+background:black !important;
+}
+
+#topo{
+position:fixed;
+bottom:20px;
+right:20px;
+padding:10px 15px;
+border:none;
+border-radius:50%;
+font-size:20px;
+}
+
+@media(max-width:768px){
+
+.banner{
+background:#343a40;
+text-align:center;
+}
+
+.banner h1{
+font-size:2rem;
+}
+
+.banner{
+padding:60px 10px;
+}
+
+}
